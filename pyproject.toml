@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ocean_cleanup_challenge"
+version = "0.1.0"
+description = "kili technology and ocean cleanups annotation challenge december 2022"
+authors = ["lucy.bowles <lucy.bowles@brandwatch.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.991"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+isort = "^5.10.1"
+jupyterlab = "^3.5.1"
+plotly = "^5.11.0"
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
